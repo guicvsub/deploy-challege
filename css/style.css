@@ -5,8 +5,8 @@
 }
 
 img {
-  margin: 0;
-  padding: 0;
+  object-fit: cover;
+  
 }
 
 div {
@@ -72,9 +72,11 @@ ul li {
 }
 
 /* Banner */
+
 img {
   object-fit: cover;
-  /* width: 100%; */
+   width: 100%; 
+  
 }
 
 /* SECAO 1 - SOBRE O HOSPITAL */
@@ -593,4 +595,21 @@ hr {
   border: none;
   padding: 0;
   border-radius: 0;
+}
+
+
+.carousel-container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
 }
